@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Agency - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Tabela-->
+    <link rel="stylesheet" href="css/table.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#servicos">Serviços</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </nav>
+
+    <!-- Headers -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Bem-vindos ao site de vendas de mercadorias</div>
+                <div class="intro-heading">Conheça o nosso trabalho.</div>
+                <a href="#servicos" class="page-scroll btn btn-xl">Compras/Vendas</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section Serviços -->
+    <section id="servicos">
+        <div class="container">
+
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">Serviços</h2>
+                  <h3 class="section-subheading text-muted">Possuimos serviços de compras e vendas de mercadorias.</h3>
+              </div>
+          </div>
+
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                  <span class="fa-stack fa-4x">
+                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                      <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <h4 class="servicos-heading">Compras ou Vendas</h4>
+                </div>
+            </div>
+      </div> <!-- Fecha Container -->
+
+<br />
+
+      <div class="container">
+				<div class="main-login main-center">
+					<form class="form-horizontal" method="post" action="cadastra.php">
+						<div class="form-group">
+							<label for="name" class="cols-sm-2 control-label">Código da Mercadoria</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-barcode" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="codigo" id="name"  placeholder="12345"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="email" class="cols-sm-2 control-label">Tipo da Mercadoria</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-chevron-down" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="tipo" id="email"  placeholder="Mercadoria Fragil"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="username" class="cols-sm-2 control-label">Nome da Mercadoria</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-font" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="name" id="username"  placeholder="Notebook"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="text" class="cols-sm-2 control-label">Quantidade</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-menu-down" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="qtd" id="text"  placeholder="2"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="confirm" class="cols-sm-2 control-label">Preço</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-usd" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="preco" id="confirm"  placeholder="1300,00"/>
+								</div>
+							</div>
+						</div>
+
+            <div class="form-group">
+
+                		<div class="col-sm-10 col-md-10">
+                			<div class="input-group">
+                				<div id="radioBtn" class="btn-group">
+                					<a class="btn btn-primary btn-sm active" name="radio"data-toggle="radio" data-title="compra" values ="compra">Compra</a>
+                					<a class="btn btn-primary btn-sm notActive" name="radio"data-toggle="radio" data-title="venda" values ="venda">Venda</a>
+                				</div>
+                				<input type="hidden" name="radio" id="radio" value="compra">
+                			</div>
+                		</div>
+                	</div>
+
+						<div class="form-group ">
+							<button type="submit" class="btn btn-primary btn-lg btn-block login-button">Cadastrar</button>
+						</div>
+
+					</form>
+
+    </section>
+
+
+
+    <!-- Section Contato -->
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contate-nos</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="formulariocontato" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="formulariocontrole" placeholder="Seu nome *" id="nome" required data-validation-required-message="Insira seu nome.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="formulariocontrole" placeholder="Seu email *" id="email" required data-validation-required-message="Insira seu email.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="formulariocontrole" placeholder="Seu celular *" id="celular" required data-validation-required-message="Insira seu celular.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="formulariocontrole" placeholder="Sua mensagem *" id="messagem" required data-validation-required-message="Insira sua mensagem."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="successo"></div>
+                                <button type="submit" class="btn btn-xl">Enviar mensagem</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; 2016</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="http://www.facebook.com/raphael.pajuelocaruso" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/raphael-pajuelo-caruso-03b20a122?trk=nav_responsive_tab_profile_pic target="_blank""><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+              </div>
+        </div>
+    </footer>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+      <script src="js/radio.js"></script>
+
+</body>
+
+</html>
